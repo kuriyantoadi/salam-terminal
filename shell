@@ -1,0 +1,46 @@
+# hari
+hari=`date +%A`
+
+case $hari in
+	Senin )
+	  echo "Sekarang Hari senin mas. . . "
+	  echo "Ojo lali Upacara mas, semangat kerja e mas  . . . "
+	  echo "Ojo lali sarapan terus sholat mas . . ."
+	  echo ""
+	;;
+        Selasa )
+          echo "Sekarang Hari selasa mas . . ."
+	  echo "Tetap lanjudkan kerjaan mu mas, jangan lupa cucian di cuci mas . . . "
+	  echo ""
+        ;;
+        Rabu )
+          echo "Sekarang Hari rabu mas . . ."
+          echo "Walau pun sudah cukup lelah, tapi jangan mengeluh mas. . . "
+          echo ""
+        ;;
+        Kamis )
+          echo "Sekarang hari Kamis mas . . . "
+	  echo "Jangan sampai lupa pakai batik mas . . . "
+	  echo ""
+        ;;
+        Jumat )
+          echo "Sekarang Hari Jum'at mas  . . ."
+	  echo "Besok sudah libur ko mas kerja nya, Jangan lupa jaga kesehatan mas. . . "
+	  echo ""
+        ;;
+        Sabtu )
+          echo "Sekarang Hari Sabtu mas . . . "
+	  echo "Wes libur mas, wayah e nyantai mas, pikiran mu wes kesel mas"
+	  echo ""
+        ;;
+        Minggu )
+          echo "Sekarang Hari minggu mas  . . . "
+	  echo "Ingat mas, besok upacara, jadi kegiatan nya jangan sibuk-sibuk ya. . ."
+	  echo ""
+        ;;
+
+	*)
+	echo "Mas, bash mu salah, cek lagi bagaian tanggal mas!!!!"
+	echo ""
+	;;
+esac
